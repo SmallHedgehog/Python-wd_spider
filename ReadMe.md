@@ -10,8 +10,13 @@ main.py 模块是程序的入口函数，支持命令行参数，使用方式：
 - -f F			write data into file, default "data.txt"
 
 dist/main.exe是可执行程序，运行时会在当前目录下生成data.sqlite和data.txt文件来存储我们爬取下来的数据。
-db.py 是配置sqlite3数据库模块
+
+db.py 是配置sqlite3数据库模块。
+
 log.py	是出错处理模块，如果requests请求失败，会在当前目录下生成log.txt文件来记录出错信息。
-main.py 是程序入口函数，支持命令行参数
-parsing.py 是构造requests请求和解析数据模块
-writing.py 是将数据写入到文件中
+
+main.py 是程序入口函数，支持命令行参数。
+
+parsing.py 是构造requests请求和解析数据模块。
+
+writing.py 是将数据写入到文件中。
